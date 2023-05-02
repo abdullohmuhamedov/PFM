@@ -16,4 +16,9 @@
     <ProjectReference Include="..\E-PrFinance.Domain\E-PrFinance.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
 </Project>
