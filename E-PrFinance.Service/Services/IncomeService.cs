@@ -8,7 +8,7 @@ namespace E_PrFinance.Service.Services;
 
 public class IncomeService : IIncomeService
 {
-    private readonly GenericRepository<MonthlyIncome> genericRepository = new GenericRepository<MonthlyIncome>();
+    private readonly Repository<MonthlyIncome> genericRepository = new Repository<MonthlyIncome>();
     public async Task<Response<MonthlyIncome>> CreateAsync(IncomeCreationDto income)
     {
         var newIncome = new MonthlyIncome()

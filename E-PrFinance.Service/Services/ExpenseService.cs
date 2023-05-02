@@ -8,7 +8,7 @@ namespace E_PrFinance.Service.Services;
 
 public class ExpenseService : IExpenseService
 {
-    private readonly GenericRepository<MonthlyExpense> genericRepository = new GenericRepository<MonthlyExpense>();
+    private readonly Repository<MonthlyExpense> genericRepository = new Repository<MonthlyExpense>();
     public async Task<Response<MonthlyExpense>> CreateAsync(ExpenseCreationDto expense)
     {
         var newExpense = new MonthlyExpense()

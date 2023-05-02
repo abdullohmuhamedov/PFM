@@ -9,7 +9,7 @@ namespace E_PrFinance.Service.Services;
 
 public class DetailService : IDetailService
 {
-    private readonly GenericRepository<WalletDetail> genericRepository = new GenericRepository<WalletDetail>();
+    private readonly Repository<WalletDetail> genericRepository = new Repository<WalletDetail>();
     public async Task<Response<WalletDetail>> CreateAsync(DetailCreationDto detail)
     {
         var results = await this.genericRepository.GetAllAsync();

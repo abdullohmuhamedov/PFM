@@ -9,11 +9,11 @@ using Formatting = Newtonsoft.Json.Formatting;
 
 namespace E_PrFinance.Data.Repositories;
 
-public class GenericRepository<TResult> : IGenericRepository<TResult> where TResult : Auditable
+public class Repository<TResult> : IRepository<TResult> where TResult : Auditable
 {
     private string path;
 
-    public GenericRepository()
+    public Repository()
     {
         if (typeof(TResult) == typeof(User))
         {
