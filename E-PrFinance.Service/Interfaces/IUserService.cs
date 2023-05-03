@@ -1,14 +1,12 @@
-﻿using E_PrFinance.Domain.Entities;
-using E_PrFinance.Service.DTOs;
-using E_PrFinance.Service.Helpers;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace E_PrFinance.Service.Interfaces;
-
-public interface IUserService
+namespace E_PrFinance.Service.Interfaces
 {
-    Task<Response<User>> CreateAsync(UserCreationDto user);
-    Task<Response<User>> UpdateAsync(long id, UserCreationDto user);
-    Task<Response<bool>> DeleteAsync(long id);
-    Task<Response<User>> GetAsync(long id);
-    Task<Response<List<User>>> GetAllAsync();
+    internal class IUserService
+    {
+    }
 }

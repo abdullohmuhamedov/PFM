@@ -15,4 +15,10 @@
     <ProjectReference Include="..\E-PrFinance.Domain\E-PrFinance.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contexts\" />
+    <Folder Include="IRepositories\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

@@ -17,8 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Interfaces\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Exceptions\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

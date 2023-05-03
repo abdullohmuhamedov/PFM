@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E_PrFinance.Service.Services
+namespace E_PrFinance.Domain.Entities
 {
-    internal class UserService
+    internal class Information
     {
     }
 }
